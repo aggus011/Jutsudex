@@ -1,0 +1,55 @@
+#logo{
+    width: 30%;
+}
+.navv{
+    display: flex;
+}
+.navv h2{
+    margin-right: 5%;
+}
+.navv a{
+    margin: 5%;
+}
+header{
+    display: block;
+    background-color: #000000;
+}
+.menu{
+    text-align: center;
+    /*background-color: #CE5A12;*/
+    margin-bottom: 5%;
+}
+.menu button{
+    width: 100%;
+    background-color: rgb(227, 100, 20);
+}
+header h2{
+    color: rgb(227, 100, 20);
+}
+body{
+    background-color: rgb(227, 100, 20);
+}
+.btn{
+    text-align: center;
+}
+#error{
+    color: red;
+    background-color: black;
+}
+.pinicio{
+    color: white;
+    text-align: center;
+}
+.img-centro{
+    text-align: center;
+}
+@media screen and (min-width:47em){
+    .navheader{
+        display: flex;
+    }
+}
+@media screen and (min-width:60em){
+    .form-header form{
+        margin: 15%;
+    }
+}

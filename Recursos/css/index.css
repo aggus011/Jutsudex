@@ -1,0 +1,43 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+.pruebas{
+    margin: 5% 5% 0 5%;
+}
+
+#ilust, #tipo{
+    width: 80%;
+    margin-left: 25%;
+}
+.agregar{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.agregar button{
+    padding: 4%;
+    background-color: black;
+    color: rgb(227, 100, 20);
+}
+
+@media screen and (min-width:47em){
+    #ilust, #tipo{
+        width: 50%;
+        margin-left: 25%;
+    }
+    #tipo{
+        width: 25%;
+    }
+
+    .icons{
+        display: flex;
+    }
+    .agregar button{
+        padding: 2%;
+    }
+}
+@media screen and (min-width:60em){
+    .agregar button{
+        padding: 1%;
+    }
+}
